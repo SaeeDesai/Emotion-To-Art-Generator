@@ -1,0 +1,7 @@
+out_goemo_1/
+emotion_sd_lora_final/
+dl_proj_env/
+official_data/artemis_dataset_release_v0.csv
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
