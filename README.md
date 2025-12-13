@@ -95,7 +95,7 @@ This folder includes the **LoRA-adapted Stable Diffusion components and generate
 
 ### `Reproducing the Results (Using Pretrained Models)`
 
-To reproduce the project results **without retraining the models**, run the `code_sequence.ipynb` notebook from start to finish.  
+To reproduce the project results **without retraining the models**, run the code blocks mentioned in the `code_sequence.ipynb` notebook in our main `project.ipynb` file.  
 This notebook uses the **pretrained classifiers, mapping matrices, and LoRA parameters** provided, allowing you to directly generate emotion-driven artwork.
 
 ## Live Gradio Demo
