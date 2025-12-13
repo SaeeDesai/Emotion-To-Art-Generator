@@ -69,39 +69,38 @@ We were unable to upload the required files directly to GitHub due to size limit
 
 ---
 
-## `archive(7)`
+### `archive(7)`
 
 🔗 [https://drive.google.com/drive/folders/1s5yN9mEyubx7QHvPsMD7jYFUgIMJUak5?usp=sharing](https://drive.google.com/drive/folders/1s5yN9mEyubx7QHvPsMD7jYFUgIMJUak5?usp=sharing)
 
 This folder contains the **raw GoEmotions dataset** as originally released, split across multiple CSV files. It serves as the foundational data source for training the multi-label emotion classification model.
 
----
-
-## `official_data`
+### `official_data`
 
 🔗 [[https://drive.google.com/drive/folders/1HBaqGL4yG9gmletsZG8X67l7rLscfCIY?usp=sharing](https://drive.google.com/drive/folders/1HBaqGL4yG9gmletsZG8X67l7rLscfCIY?usp=sharing)
 
 This folder stores **cleaned and standardized datasets**, particularly the processed ArtEmis captions and labels. It functions as the **alignment layer** that enables consistent mapping between textual emotions and artistic emotion categories.
 
----
-
-## `out_goemo_1`
+### `out_goemo_1`
 
 🔗 [https://drive.google.com/drive/folders/1xhXEx0jfQfWEyUj7QxNdSs_L9jcqOPNv?usp=sharing](https://drive.google.com/drive/folders/1xhXEx0jfQfWEyUj7QxNdSs_L9jcqOPNv?usp=sharing)
 
 This directory contains the **trained GoEmotions text classifier** along with its tokenizer and label metadata. It represents the core **emotion understanding module** that converts text into a 27-dimensional emotion probability representation.
 
----
-
-## `emotion_sd_lora`
+### `emotion_sd_lora`
 
 🔗 [https://drive.google.com/drive/folders/180vx9SoPs6mnNXf5niqaW59e624lqhdx?usp=sharing](https://drive.google.com/drive/folders/180vx9SoPs6mnNXf5niqaW59e624lqhdx?usp=sharing)
 
 This folder includes the **LoRA-adapted Stable Diffusion components and generated artworks**. It corresponds to the final **emotion-to-art generation stage**, where detected emotions are translated into visually expressive images.
 
----
-
-## `Reproducing the Results (Using Pretrained Models)`
+### `Reproducing the Results (Using Pretrained Models)`
 
 To reproduce the project results **without retraining the models**, run the `code_sequence.ipynb` notebook from start to finish.  
 This notebook uses the **pretrained classifiers, mapping matrices, and LoRA parameters** provided, allowing you to directly generate emotion-driven artwork.
+
+## Live Gradio Demo
+
+To directly interact with the model and visualize the results through a user interface, use the Gradio link below:
+
+**Gradio App:** https://015d5fcdb1edac31b1.gradio.live  
+**Note:** This link is active until **December 19**.
