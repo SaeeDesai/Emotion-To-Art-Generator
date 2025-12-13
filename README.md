@@ -1,4 +1,4 @@
-# 🎨 Emotion-To-Art-Generator
+# Emotion-To-Art-Generator
 
 **Emotion-To-Art-Generator** is a multimodal deep learning project that converts **textual emotions into AI-generated artwork**.  
 The system first detects the emotion expressed in a given text using a **fine-tuned Transformer-based emotion classifier**, and then generates an **art image aligned with that emotion** using a **fine-tuned Stable Diffusion v1.5 model**.
