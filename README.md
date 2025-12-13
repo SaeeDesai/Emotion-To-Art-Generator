@@ -45,7 +45,7 @@ This project bridges **Natural Language Processing (NLP)** and **Generative Comp
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Emotion-To-Art-Generator.git
+git clone git@github.com:SaeeDesai/Emotion-To-Art-Generator.git
 cd Emotion-To-Art-Generator
 ```
 
@@ -60,3 +60,41 @@ venv\Scripts\activate        # Windows
 ```bash
 pip install -r requirements.txt
 ```
+
+## Important Note
+
+We were unable to upload the required files directly to GitHub due to size limitations. Therefore, we have shared the necessary folders via Google Drive.
+
+**Please access the following links using your UMD account.**
+
+---
+
+## `archive(7)`
+
+🔗 [https://drive.google.com/drive/folders/1s5yN9mEyubx7QHvPsMD7jYFUgIMJUak5?usp=sharing](https://drive.google.com/drive/folders/1s5yN9mEyubx7QHvPsMD7jYFUgIMJUak5?usp=sharing)
+
+This folder contains the **raw GoEmotions dataset** as originally released, split across multiple CSV files. It serves as the foundational data source for training the multi-label emotion classification model.
+
+---
+
+## `official_data`
+
+🔗 [[https://drive.google.com/drive/folders/1HBaqGL4yG9gmletsZG8X67l7rLscfCIY?usp=sharing](https://drive.google.com/drive/folders/1HBaqGL4yG9gmletsZG8X67l7rLscfCIY?usp=sharing)
+
+This folder stores **cleaned and standardized datasets**, particularly the processed ArtEmis captions and labels. It functions as the **alignment layer** that enables consistent mapping between textual emotions and artistic emotion categories.
+
+---
+
+## `out_goemo_1`
+
+🔗 [https://drive.google.com/drive/folders/1xhXEx0jfQfWEyUj7QxNdSs_L9jcqOPNv?usp=sharing](https://drive.google.com/drive/folders/1xhXEx0jfQfWEyUj7QxNdSs_L9jcqOPNv?usp=sharing)
+
+This directory contains the **trained GoEmotions text classifier** along with its tokenizer and label metadata. It represents the core **emotion understanding module** that converts text into a 27-dimensional emotion probability representation.
+
+---
+
+## `emotion_sd_lora`
+
+🔗 [https://drive.google.com/drive/folders/180vx9SoPs6mnNXf5niqaW59e624lqhdx?usp=sharing](https://drive.google.com/drive/folders/180vx9SoPs6mnNXf5niqaW59e624lqhdx?usp=sharing)
+
+This folder includes the **LoRA-adapted Stable Diffusion components and generated artworks**. It corresponds to the final **emotion-to-art generation stage**, where detected emotions are translated into visually expressive images.
