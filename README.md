@@ -98,3 +98,10 @@ This directory contains the **trained GoEmotions text classifier** along with it
 🔗 [https://drive.google.com/drive/folders/180vx9SoPs6mnNXf5niqaW59e624lqhdx?usp=sharing](https://drive.google.com/drive/folders/180vx9SoPs6mnNXf5niqaW59e624lqhdx?usp=sharing)
 
 This folder includes the **LoRA-adapted Stable Diffusion components and generated artworks**. It corresponds to the final **emotion-to-art generation stage**, where detected emotions are translated into visually expressive images.
+
+---
+
+## `Reproducing the Results (Using Pretrained Models)`
+
+To reproduce the project results **without retraining the models**, run the `code_sequence.ipynb` notebook from start to finish.  
+This notebook uses the **pretrained classifiers, mapping matrices, and LoRA parameters** provided, allowing you to directly generate emotion-driven artwork.
